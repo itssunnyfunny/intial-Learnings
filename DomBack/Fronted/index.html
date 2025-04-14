@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <div id="container">
+            
+        </div>
+    </body>
+   <script>
+    let state = {
+       count: 0
+    };
+      function onButtonPress() {
+        state.count++;
+        onButtonReRender()
+      }
+
+      function onButtonReRender() {
+       const elm= document.getElementById("container");
+       elm.innerHTML= "";
+       const component = buttonComponent(state.count);
+       elm.appendChild(component);
+      };
+
+      function buttonComponent(count) {
+       const button= document.createElement("button");
+       button.innerHTML = `Couter ${count}`;
+       button.setAttribute("onclick", `onButtonPress()`)
+       return button;
+
+      }
+
+   onButtonReRender()
+
+   </script>
+</html>
+
