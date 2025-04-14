@@ -1,0 +1,9 @@
+<script>start("c:\\Users\\shani yadav\\Desktop\\postgres\\");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("dist","dist",1,0,"0 B",1728123309,"10/5/24, 3:45:09 PM");</script>
+<script>addRow("node_modules","node_modules",1,0,"0 B",1727689532,"9/30/24, 3:15:32 PM");</script>
+<script>addRow("src","src",1,0,"0 B",1728106291,"10/5/24, 11:01:31 AM");</script>
+<script>addRow("package-lock.json","package-lock.json",0,9230,"9.0 kB",1727689533,"9/30/24, 3:15:33 PM");</script>
+<script>addRow("package.json","package.json",0,296,"296 B",1727689533,"9/30/24, 3:15:33 PM");</script>
+<script>addRow("tsconfig.json","tsconfig.json",0,12515,"12.2 kB",1727689616,"9/30/24, 3:16:56 PM");</script>
+<script>addRow("tsconfig.tsbuildinfo","tsconfig.tsbuildinfo",0,85,"85 B",1728371317,"10/8/24, 12:38:37 PM");</script>
