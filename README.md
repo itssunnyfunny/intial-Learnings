@@ -18,3 +18,4 @@
 
  **note :** its not hopelesness its the acceptance of what this mind can and can't do  and i can see its limitations , the more you try, more you are going to punch my the facts of its limitations
  
+ ## be realistic and code it out 
