@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Document</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+   <div class="parent">
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thusday</div>
+   </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+// console.log(parent);
+// console.log(parent.children);
+// console.log(parent.children[1].innerHTML);
+
+// for (let i = 0; i < parent.children.length; i++) {
+//     console.log(parent.children[i].innerHTML);
+// }
+// parent.children[1].style.color= 'orange'
+// console.log(parent.firstElementChild);
+// console.log(parent.lastElementChild);
+
+
+// const oneDay = document.querySelector('.day')
+//  console.log(oneDay.parentElement);
+//  console.log(oneDay.nextElementSibling);
+
+ const div = document.createElement('div')
+ document.body.appendChild(div)
+ div.className = "baba"
+ div.id        = "myId"
+ div.setAttribute("title","myNewTitle")
+ div.style.backgroundColor = "blue"
+ div.style.padding = "123px"
+ const addText = document.createTextNode("chai aur code in javascript")
+ div.appendChild(addText)
+
+ const div1= document.createElement('div')
+div1.className  = "man"
+div1.id  = "myid"
+div1.setAttribute("title", "generate title")
+div1.style.backgroundColor = "green"
+div1.style.padding = "12px"
+document.body.appendChild(div1)
+const addText1 = document.createTextNode("sunny and money")
+div1.appendChild(addText1)
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>

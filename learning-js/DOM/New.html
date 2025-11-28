@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | new Element</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul>
+        <li>javascript</li>
+    </ul>
+    
+</body>
+<script>
+
+    function addLanguage(langName) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        li.style.color = "green"
+        document.querySelector('ul').appendChild(li)
+
+    }
+    addLanguage("Java")
+    addLanguage("Python")
+    addLanguage("swipt")
+
+    const secondL = document.querySelector("li:nth-child(2)")
+    const newli = document.createElement("li")
+    newli.textContent = "Mojo"
+    secondL.replaceWith(newli)
+
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = '<li>Typescipt</li>'
+
+    const lastang = document.querySelector("li:last-child")
+     lastang.remove()
+    // secondL.remove()
+    // firstLang.remove()
+
+
+
+
+</script>
+</html>
